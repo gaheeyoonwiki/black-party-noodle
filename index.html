@@ -1,15 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://unpkg.com/mvp.css">
+<head> 
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://unpkg.com/mvp.css" />
     <title></title>
-</head>
+</head> 
 <body>
     <div>
-        <img id="mainImage" src="">
+      <video style="width: 240px" id="faceCamVideo" autoplay="true"></video>
+      <button id="btnCapture">capture</button>
+      <img id="capturedImage" src="" />
+    </div>
+    <div>
+      <img id="mainImage" src="" />
     </div>
     <script src="static/js/index.js"></script>
+    <script src="static/js/cam.js"></script>
 </body>
 </html>
